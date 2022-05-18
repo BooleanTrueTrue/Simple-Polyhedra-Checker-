@@ -7,7 +7,7 @@ using namespace std;
     int c;
     int v;
     int a;
-    const int Euler = 2;
+    const int aux = 2;
     string msg1 = "Welcome to the Simple Polyhedra checker. \n";    
     string msg2 = "\nEnter the number of faces: ";
     string msg3 = "\nEnter the number of vertices: ";
@@ -27,7 +27,7 @@ int main()
     
     x = c + v - a;
     
-    if (x == Euler)
+    if (x == aux)
     {
       cout << msg5;  
     }
